@@ -1,4 +1,4 @@
-site_name: Plant Phenotyping Analysis Documentation
+site_name: Plant Phenotyping Analysis AVLL Documentation
 theme:
   name: readthedocs
   highlightjs: true
