@@ -1,6 +1,6 @@
 ### Installation from PyPI
 
-* Python is needed to launch the GUI. Install the library using PyPI with the command  \
+* Python is needed to launch the GUI. Install the library using PyPI with the command 
 `pip install -i https://test.pypi.org/simple/ plant-analysis-AVLL`
 
 ### Launch GUI
