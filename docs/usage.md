@@ -18,11 +18,11 @@ From the **Select Service** dropdown, you can choose two options.
 
 After selecting the service type, you will be prompted to enter the folder path to input images. The expected structure of the input folder is as below
 
-<img src="./images/plants_folder.png" alt="drawing" width="100"/>
+![image](./images/plants_folder.png)
 
 Here, raw images of each plant are separated into different folders. Image names of a plant in its folder should be named in sorted order so that the order can be used to stitch the images later to generate a single stitched image per plant.
 
-<img src="./images/plant_folder.png" alt="drawing" width="500"/>
+![image](./images/plant_folder.png)
 
 If the selected service type is *Single Plant Analysis*, enter the folder path of one plant that contains its images. For *Multi Plant Analysis*, enter the path to the directory containing multiple plant directories as shown above.
 
@@ -45,7 +45,7 @@ After the host server analyzes the Plants, It will display the summary of plant 
 
 In the below plot, you can check the comparison of estimated plant heights
 
-<img src="./images/statistics_plot.png" alt="drawing" width="200"/>
+![image](./images/statistics_plot.png)
 
 From the **Select Plant** dropdown, you can select the plant name to show plant analysis. Plant analysis has 2 tabs by default. If the *Show Raw Images* or *Show Color Images* options are chosen before, additional tabs will be displayed accordingly. In this case, as we chose both options, 4 tabs are displayed.
 
@@ -63,7 +63,7 @@ From the **Select Plant** dropdown, you can select the plant name to show plant 
 
 * *Plant Statistics* shows the estimated plant statistics
 
-<img src="./images/plant_statistics_tab.png" alt="drawing" width="450"/>
+![image](./images/plant_statistics_tab.png)
 
 
 ### Save Result
