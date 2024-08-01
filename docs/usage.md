@@ -43,9 +43,9 @@ After the host server analyzes the Plants, It will display the summary of plant 
 
 ![image](./images/request_processed.png)
 
-In the below plot, you can check the comparison of estimated plant heights
+In the above screen capture, we can see the summary statistics plot for each statistic in a different tab. Besides the plot, we have a gallery showing the plant images that have minimum and maximum values of the statistic. For plant height, check the plant image that got the maximum value below
 
-![image](./images/statistics_plot_edited.png)
+![image](./images/statistic_max_example.png)
 
 From the **Select Plant** dropdown, you can select the plant name to show plant analysis. Plant analysis has 2 tabs by default. If the *Show Raw Images* or *Show Color Images* options are chosen before, additional tabs will be displayed accordingly. In this case, as we chose both options, 4 tabs are displayed.
 
@@ -61,10 +61,27 @@ From the **Select Plant** dropdown, you can select the plant name to show plant 
 
 ![image](./images/plant_analysis_tab.png)
 
+We have recently added the NDVI image of the plant. Checkout the NDVI in the plant analysis tab
+
+![image](./images/ndvi_plant_feature.png)
+
 * *Plant Statistics* shows the estimated plant statistics
 
 ![image](./images/plant_statistics_tab.png)
 
+Supported plant statistics are:
+
+* Height
+* Width
+* Area
+* Perimeter
+* Solidity
+* Number of Branches
+* Number of leaves
+* NDVI (Maximum)
+* NDVI (Minimum)
+* NDVI (Average)
+* NDVI (Positive Average)
 
 ### Save Result
 
@@ -77,6 +94,8 @@ You will be prompted with a text box acknowledging that results are saved.
 ![image](./images/result_saved.png)
 
 
-### Clear and Refresh
+### Clear Cache and Refresh
 
-To clear the result and start fresh again, click the **clear** button at the end. Alternatively, at any stage, you can also **refresh** the webpage to start fresh again
+![image](./images/clear_cache.png)
+
+To restart and make a new request again, click **Clear Cache**. As the intermediate analysis result is saved in the host server, clearing the cache before submitting a new request is recommended. This will help the system to optimize the memory use. After clearing the cache, click **Refresh** to make a new request.
