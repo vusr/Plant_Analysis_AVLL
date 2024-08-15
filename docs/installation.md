@@ -1,8 +1,13 @@
+### Installation from Github
+
+* For the latest version, install from our [github repository](https://github.com/Advanced-Vision-and-Learning-Lab/Plant_Analysis)
+
 ### Installation from PyPI
 
 * Python is needed to launch the GUI. Install the library using PyPI with the command 
 `pip install -i https://test.pypi.org/simple/ plant-analysis-AVLL`
-
+* PyPI may not have the latest version of the pipeline.
+  
 Download the segmentation model weights from [google drive](https://drive.google.com/file/d/1t8MW2etrZY7FecJPPQOBGv3pg6QOGMvt/view?usp=sharing) and place the weight file in your work directory
 
 ### Launch GUI
@@ -13,7 +18,7 @@ After successfully installing the library, follow these commands in the Python c
 
 * Launch the GUI `plant_analysis_AVLL.launch_GUI(model_path = <path to segmentation model weight file>, share_option = <True or False>)`. Enter the path to the downloaded model weights file in *model_path* and set *share_option* to True to get a publicly shareable link to the GUI.
 
-After running the command, GUI will be running in the local. Click or Paste the link generated from the above command in your browser
+After running the command, the GUI will run locally. Click or Paste the link generated from the above command in your browser
 
 ![image](./images/launching_gui_updated.png)
 
